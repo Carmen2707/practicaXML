@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<horario>
+    <ciclo>DAM</ciclo>
+    <curso>Primero</curso>
+    <aula>Taller de administracion</aula>
+    <semana>
+         <dia nombre="lunes">
+             <clase hora="8:00">Programacion</clase>
+             <clase hora="9:00">Sistemas</clase>
+             <clase hora="10:00">BBDD</clase>
+         </dia>
+         
+         <dia nombre="martes">
+             <clase hora="8:00" >BBDD</clase>
+             <clase hora="9:00">Sistemas</clase>
+             <clase hora="10:00">FOL</clase>
+         </dia>
+         
+         <dia nombre="miercoles">
+             <clase hora="8:00">Sistemas</clase>
+             <clase hora="9:00">Sistemas</clase>
+             <clase hora="10:00">Marcas</clase>
+         </dia>
+         
+         <dia nombre="jueves">
+             <clase hora="8:00">Programacion</clase>
+             <clase hora="9:00">Sistemas</clase>
+             <clase hora="10:00">Entornos</clase>
+         </dia>
+         
+         <dia nombre="viernes">
+             <clase></clase>
+         </dia>
+    </semana>
+    
+    <modulos>
+        <modulo>
+            <nombre>Lenguaje de marcas</nombre>
+            <horas>
+                <hora dia="lunes">9:00</hora>
+                <hora dia="miercoles">10:00</hora>
+                <hora dia="miercoles">11:30</hora>
+            </horas>
+        </modulo>
+        
+        <modulo>
+            <nombre>Programacion</nombre>
+            <horas>
+                <hora dia="lunes">9:00</hora>
+                <hora dia="miercoles">10:00</hora>
+                <hora dia="miercoles">11:30</hora>
+                <hora dia="miercoles">10:00</hora>
+                <hora dia="miercoles">11:30</hora>
+                <hora dia="miercoles">11:30</hora>
+            </horas>
+        </modulo>
+    </modulos>
+</horario>
+
